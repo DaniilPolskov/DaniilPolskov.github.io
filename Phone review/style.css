@@ -10,6 +10,7 @@ body{
 }
 p{
     padding: 0 0 20px 0;
+    font-size: 16px;
     line-height: 1.7em;
 }
 
@@ -21,10 +22,16 @@ p{
     
 }
 
+.statistics{
+    color: rgb(68, 68, 68);
+    font-size: 19px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 input[type="text"], input[type="password"], input[type="search"]{
     color: #5d5d5d;
-    width: 60%;
-    padding: 8px;
+    font-size: medium;
+    padding: 15px;
 }
 input,textarea{
     outline: none;
@@ -76,10 +83,12 @@ ul li {
     margin: 0 0 0 1px;
 }
 .logo_text h1, .logo_text h1 a, .logo_text h1 a:hover{
-    padding: 21px 0 0 0;
+    padding: 19px 0 0 0;
     color: rgb(255, 255, 255);
     letter-spacing: 0em;
     text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
 }
 .logo_text h2{
     font-size: 1.8em;
@@ -87,8 +96,8 @@ ul li {
     color: #ffffff;
 }
 .menubar{
-    width: 900px;
-    height: 46px;
+    width: 750px;
+    height: 576px;
 }
 
 ul.menu{
@@ -105,8 +114,8 @@ ul.menu li a{
     display: block;
     height: 20px;
     font-weight: 1800;
-    padding: 10px 80px 5px 28px;
-    color: rgb(0, 0, 0);
+    padding: 19px 80px 5px 28px;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 ul.menu li.selected a{
@@ -119,7 +128,7 @@ hr{
     border: solid 0px black;
 }
 .site_content{
-    width: 880px;
+    width: 620px;
     overflow: hidden;
     margin: 20px auto 0 auto ;
     background-color: rgb(255, 255, 255);
@@ -147,7 +156,7 @@ hr{
     color: #000000;
 }
 .lables_passreg_text{
-    font-size: 0.7em;
+    font-size: 1.5em;
     margin-top: 3%;
     margin-left: 2%
 }
@@ -161,7 +170,7 @@ hr{
 .sidebar .rating_sidebar{
     float: right;
 }
-.content{
+.content_center{
     text-align: left;
     width: 620px;
     padding: 0 0 0 5px;
@@ -171,10 +180,10 @@ hr{
 .content a{
     text-decoration: none;
 }
-.films_block{
+.phones_block{
     margin-bottom: 5%;
 }
-.films_block img{
+.phones_block img{
     border-radius: 5px;
     border: solid 5px #dad7d5;
     width: 22%;
@@ -183,25 +192,25 @@ hr{
     font-size: 1.8em;
 }
 
-.info_film_page{
+.info_phone{
     margin-top: 2%;
     margin-bottom: 4%;
     
 }
 
-.info_film_page .label{
+.info_phone .label{
     font-size: 1.2em;
 
 }
-.info_film_page .value{
+.info_phone .value{
     font-size: 1em;
     color: #49945a;
     margin-right: 3%;
 }
-.decriptions_film{
+.decriptions_phone{
     margin-bottom: 15%;
 }
-.decriptions_film img{
+.decriptions_phone img{
     float: left;
     margin-right: 2%;
     border-radius: 5px;
@@ -240,24 +249,24 @@ hr{
 }
 .send input[type="submit"]{
     background-color: #494949;
-    padding: 3%;
+    padding: 5%;
     color: white;
     border-radius: 5px;
 }
 .send_contact input[type="text"]{
-    width: 500px;
+    width: 700px;
 
 }
 .send_contact textarea{
     width: 516px;
 }
-.info_film{
+.info_phone{
     margin-bottom: 5%;
     background-color: #f9f9f9;
     padding: 5%;
     height: 270px;
 }
-.info_film img{
+.info_phone img{
     float: left;
     margin-right: 2%;
     border-radius: 5px;
@@ -298,7 +307,7 @@ td img{
 }
 .footer{
     width: 100%;
-    height: 161px;
+    height: 249px;
     padding: 68px 0 5px 0;
     text-align: center;
     background-color: rgb(213, 97, 97);
@@ -319,4 +328,12 @@ td img{
 }
 .footer p{
     padding: 0 0 10px 0;
+}
+
+.login_contet {
+    width: 920px;
+    overflow: hidden;
+    margin: 100px auto 0 auto ;
+    background-color: rgb(255, 255, 255);
+
 }
