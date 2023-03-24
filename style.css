@@ -1,21 +1,47 @@
 * {
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#ffffff
+}
+
+header {
+    font-size: 32px;
+    background-color:#6a7175
 }
 
 html {
     font-size: 50px;
     text-align: center;
-    background-color: #27353f;
-    color: #000;
+    background-color: #ffffff;
+    color: #000;    
 }
 
 section {
     min-height: 1000px;
-    background: url("information-technology.jpg")center/cover no-repeat;
+    font-size: 32px;
 }
 
 .myProjects a{
     margin-top: 30px;
-    color: #ef6f6f
+    color: #6047ff
 }
+
+.logo {
+    width:300px;
+    height:200px;
+    margin-left: -70%;
+}
+
+.photosites{
+    width:1050px;
+    height:500px;
+    filter: blur(3px);
+    transition: 0.5s
+}
+
+.photosites:hover {
+    filter: blur(0); 
+}
+
