@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Koduleht</title>
+    <meta name="description" content="Kinobaza on kino portaal" />
+    <meta name="keywords" content="filmid, filmid online,hd"/>
+    <link rel="stylesheet" href="/KinoBaza/eesti KinoBaza/style.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="header">
+            <div class="logo">
+                <div class="logo_text">
+                    <h1><a href="index.html"> Kinobaza </a></h1>
+                    <h2>Kino - meie kirg!</h2>
+                </div>  
+            </div>
+
+            <div class="menubar"> 
+
+                <ul class="menu">
+                    <li><a href="index.html">Koduleht</a></li>
+                    <li><a href="films.html">Filmid</a></li>
+                    <li><a href="serials.html">Serialid</a></li>
+                    <li><a href="rating.html">Filmid reiting</a></li>
+                    <li  class="selected"> <a href="contact.html">Kontaktid</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="site_content">
+
+            <div class="sidebar_container">
+
+                <div class="sidebar">
+                    <h2>Otsing</h2>
+                    <form method="post" action="#" id="searc_form">
+                        <input type="search" name="search-field" placeholder="teie taotlus" />
+                        <input type="submit" class="btn" value="otsing" />
+                    </form>
+                </div>
+
+                <div class="sidebar">
+                    <h2>Sisend</h2>
+                    <form method="post" action="#" id="login">
+
+                        <input type="text" name="Login_field" placeholder="login"/>
+                        <input type="password" name="password_field" placeholder="parool"/>
+                        <input type="submit" class="btn" value="sisend" />
+                        <div class="lables_passreg_text">
+                            <span><a href="#">Unustasid parooli?</a></span> | <span><a href="#">Registreerimine</a></span>
+                        </div>
+
+                    </form>
+                </div>
+
+                <div class="sidebar">
+                    <h2>Uudiseid</h2>
+                    <span>31.02.2018</span>
+                    <p>Oleme käivitanud laiendatud otsingu</p>
+                    <a href="#">Lugemine</a>
+                </div>
+
+                <div class="sidevar">
+                    <h2>Reiting filmid</h2>
+                    <ul>
+                        <li><a href="show.html">Interstellar</a><span class="rating_sidevar"> 8.1</span></li>
+                        <li><a href="#">Matrix</a><span class="rating_sidebar"> 8.0</span></li>
+                        <li><a href="#">Mad Max</a><span class="rating_sidebar"> 7.5</span></li>
+                        <li><a href="#">Cloud Atlas</a><span class="rating_sidebar"> 7.4</span></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="content">
+
+                <h1>Kontaktid</h1>
+                <p>Saada oma tagasiside portaali Filmikoletise kohta</p>
+
+                <div class="send send_contact">
+                    <form method="post" action="#" id="contact">
+                        <input type="text" name="review_name" placeholder="teie nimi">
+                        <input type="text" name="review_email" placeholder="teie email">
+                        <textarea name="review_text"></textarea>
+                        <input class="btn" type="submit" value="saatma">
+                    </form>
+                </div>
+            </div>
+         </div>
+        <div class="footer">
+            <p>
+                <a href="index.html">Koduleht</a>
+                <a href="films.html">Filmid</a>
+                <a href="#">Serialid</a>
+                <a href="rating.html">Reiting filmid</a>
+                <a href="contact.html">Kontaktid</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
