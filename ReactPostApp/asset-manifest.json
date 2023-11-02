@@ -1,15 +1,15 @@
 {
-  "main.css": "/static/css/main.063b63e8.chunk.css",
-  "main.js": "/static/js/main.c0ff441c.chunk.js",
-  "main.js.map": "/static/js/main.c0ff441c.chunk.js.map",
-  "static/css/1.caa6e98e.chunk.css": "/static/css/1.caa6e98e.chunk.css",
-  "static/js/1.66b140a9.chunk.js": "/static/js/1.66b140a9.chunk.js",
-  "static/js/1.66b140a9.chunk.js.map": "/static/js/1.66b140a9.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/main.063b63e8.chunk.css.map": "/static/css/main.063b63e8.chunk.css.map",
-  "static/css/1.caa6e98e.chunk.css.map": "/static/css/1.caa6e98e.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.9922cfdcb2eec81d3ef3934acfd631e7.js": "/precache-manifest.9922cfdcb2eec81d3ef3934acfd631e7.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/DaniilPolskov/DaniilPolskov.github.io/static/css/main.063b63e8.chunk.css",
+  "main.js": "/DaniilPolskov/DaniilPolskov.github.io/static/js/main.c0ff441c.chunk.js",
+  "main.js.map": "/DaniilPolskov/DaniilPolskov.github.io/static/js/main.c0ff441c.chunk.js.map",
+  "static/css/1.caa6e98e.chunk.css": "/DaniilPolskov/DaniilPolskov.github.io/static/css/1.caa6e98e.chunk.css",
+  "static/js/1.66b140a9.chunk.js": "/DaniilPolskov/DaniilPolskov.github.io/static/js/1.66b140a9.chunk.js",
+  "static/js/1.66b140a9.chunk.js.map": "/DaniilPolskov/DaniilPolskov.github.io/static/js/1.66b140a9.chunk.js.map",
+  "runtime~main.js": "/DaniilPolskov/DaniilPolskov.github.io/static/js/runtime~main.680287fa.js",
+  "runtime~main.js.map": "/DaniilPolskov/DaniilPolskov.github.io/static/js/runtime~main.680287fa.js.map",
+  "static/css/main.063b63e8.chunk.css.map": "/DaniilPolskov/DaniilPolskov.github.io/static/css/main.063b63e8.chunk.css.map",
+  "static/css/1.caa6e98e.chunk.css.map": "/DaniilPolskov/DaniilPolskov.github.io/static/css/1.caa6e98e.chunk.css.map",
+  "index.html": "/DaniilPolskov/DaniilPolskov.github.io/index.html",
+  "precache-manifest.44562f51916ab8e9bb920a84edc56b5d.js": "/DaniilPolskov/DaniilPolskov.github.io/precache-manifest.44562f51916ab8e9bb920a84edc56b5d.js",
+  "service-worker.js": "/DaniilPolskov/DaniilPolskov.github.io/service-worker.js"
 }
